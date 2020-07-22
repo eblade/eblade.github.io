@@ -107,7 +107,7 @@ class Player {
 	var playerTitle = document.getElementById("playertitle");
 	playerTitle.innerText = track.title || track.proxy; 
 
-	this._audio.getElementsByTagName("source")[0].src = "media/" + track.proxy;
+	this._audio.getElementsByTagName("source")[0].src = "https://media.githubusercontent.com/media/eblade/gh-pages/master/music/media/" + track.proxy;
 	this._audio.load();
 
 	var track_elements = document.body.getElementsByTagName("x-track");
