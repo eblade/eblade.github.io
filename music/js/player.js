@@ -67,7 +67,7 @@ class Track extends HTMLElement {
 	let createLink = function(filename, extension) {
 	    let span = document.createElement('span');
 	    span.className = "download";
-	    span.innerHTML = '<a class="download" href="media/'
+	    span.innerHTML = '<a class="download" href="https://media.githubusercontent.com/media/eblade/gh-pages/master/music/media/'
 		+ filename + '" download>' + extension + '</a>';
 	    container.appendChild(span);
 	};
