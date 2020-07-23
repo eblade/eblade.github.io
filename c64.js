@@ -6,7 +6,7 @@
             callback();
         });
     });
-    CharacterMap.src = 'c64.png';
+    CharacterMap.src = 'https://media.githubusercontent.com/media/eblade/eblade.github.io/master/c64.png';
     var OnLoad = Array();
 
     var Characters = {
