@@ -67,7 +67,7 @@ class Track extends HTMLElement {
 	let createLink = function(filename, extension) {
 	    let span = document.createElement('span');
 	    span.className = "download";
-	    span.innerHTML = '<a class="download" href="https://media.githubusercontent.com/media/eblade/eblade.github.io/master/music/media/'
+	    span.innerHTML = '<a class="download" href=/music/media/'
 		+ filename + '" download>' + extension + '</a>';
 	    container.appendChild(span);
 	};
@@ -107,7 +107,7 @@ class Player {
 	var playerTitle = document.getElementById("playertitle");
 	playerTitle.innerText = track.title || track.proxy; 
 
-	this._audio.getElementsByTagName("source")[0].src = "https://media.githubusercontent.com/media/eblade/eblade.github.io/master/music/media/" + track.proxy;
+	this._audio.getElementsByTagName("source")[0].src = "/music/media/" + track.proxy;
 	this._audio.load();
 
 	var track_elements = document.body.getElementsByTagName("x-track");
