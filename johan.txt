@@ -12,7 +12,7 @@
 
  This is my [[CV|#cv.txt]].
  Find all my personal programming projects at [[Github|https://github.com/eblade]].
- Find my music at [[Soundcloud|https://soundcloud.com/eblade]].
+ Find my music [[here|/music/index.html]] or at [[Soundcloud|https://soundcloud.com/eblade]].
 
 
  ------------------------------------------------------------------------------
