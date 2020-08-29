@@ -67,7 +67,7 @@ class Track extends HTMLElement {
 	let createLink = function(filename, extension) {
 	    let span = document.createElement('span');
 	    span.className = "download";
-	    span.innerHTML = '<a class="download" href=/music/media/'
+	    span.innerHTML = '<a class="download" href="/music/media/'
 		+ filename + '" download>' + extension + '</a>';
 	    container.appendChild(span);
 	};
@@ -105,7 +105,7 @@ class Player {
 	this._track = track;
 
 	var playerTitle = document.getElementById("playertitle");
-	playerTitle.innerText = track.title || track.proxy; 
+	playerTitle.innerText = track.title || track.proxy;
 
 	this._audio.getElementsByTagName("source")[0].src = "/music/media/" + track.proxy;
 	this._audio.load();
@@ -117,7 +117,7 @@ class Player {
 	}
 
     }
-    
+
     play(track) {
 	this._audio.play();
     };
@@ -136,12 +136,12 @@ class Player {
 
     set status(status) {
 	var playerStatus = document.getElementById("playerstatus");
-	playerStatus.innerText = status; 
+	playerStatus.innerText = status;
     }
 
     update_time(position, duration) {
 	var playerDuration = document.getElementById("playerduration");
-	playerDuration.innerHTML = '<b>' + formatTime(position) + '</b> / ' + formatTime(duration); 
+	playerDuration.innerHTML = '<b>' + formatTime(position) + '</b> / ' + formatTime(duration);
     }
 
     first() {
@@ -154,7 +154,7 @@ class Player {
 	    this.first();
 	    return false;
 	}
-	
+
 	var candidate = this._track.nextElementSibling;
 	while (candidate) {
 	    if (candidate instanceof Track) {
