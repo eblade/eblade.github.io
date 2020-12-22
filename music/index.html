@@ -23,10 +23,10 @@
       </p>
 
       <p>
-       Below is the music player. Clicking it toggles playback. It will stay close. 
+       Below is the music player. Clicking it toggles playback. It will stay close.
       </p>
   </div>
-  
+
   <div id="playerpanel">
     <div class="unselectable">
       <span id="playerstatus">Paused</span>
@@ -60,12 +60,12 @@
       font-size: 36pt;
       font-style: italic;
       }
-      
+
       :host > div > #title.active {
       background-image: url('media/icons/music_green.svg');
       }
       :host > .unselectable {
-        -webkit-user-select: none; /* Safari */        
+        -webkit-user-select: none; /* Safari */
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* IE10+/Edge */
         user-select: none; /* Standard */
@@ -82,7 +82,7 @@
       background-color: #555;
       padding: 2pt;
       }
-      
+
     </style>
     <div id="container" class="unselectable">
       <span id="title">?</span>
@@ -116,7 +116,9 @@
       <img src="/music/media/stafetten6.jpg" class="stafetten" title="Sixth Graphical Response" />
       <x-track title="Sixth Musical Response" proxy="stafetten6.mp3" flac="stafetten6.flac"></x-track>
       <img src="/music/media/stafetten7.jpg" class="stafetten" title="Seventh Graphical Response" />
-      <x-track title="Seventh Musical Response" proxy="stafetten7.mp3" flac="stafetten7.flac"></x-track>
+      <x-track title="Seventh Musical Response" proxy="stafetten7.mp3" flac="stafetten7.flac" pdf="stafetten7.pdf"></x-track>
+
+      <p>This concludes the Stafetten project in the December 2020.</p>
 
       <h2>Levande Syntetisk Sylt</h2>
       <p>
@@ -128,7 +130,7 @@
       <x-track title="Levande Syntetisk Sylt 4" proxy="lss004.flac" flac="lss004.flac"></x-track>
       <x-track title="Levande Syntetisk Sylt 5" proxy="lss005.flac" flac="lss005.flac"></x-track>
   </div>
-  
+
   <script src="js/player.js"></script>
 </body>
 </html>
