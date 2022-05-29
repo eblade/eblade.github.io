@@ -2,37 +2,47 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <script src="jquery-1.12.0.min.js"></script>
     <style>
         body {
-            color: #4130a4;
-            background-color: #7b71d5;
-            padding: 0;
-            margin: 0;
-            border: 0;
+            color: #7b71d5;
+            background-color: #4130a4;
+            max-width: 45em;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 12em;
+            font-family: monospace;
         }
-        canvas {
-            padding: 0;
-            margin: auto;
-            display: block;
+        a {
+            color: #7b71d5;
+        }
+        a:visited {
+            color: #7b71d5;
         }
     </style>
 </head>
 <body>
-    <script src="c64.js"></script>
-    <script type="text/javascript">
-        var terminal = $.Terminal();
+    <pre>
 
-        $.Terminal.OnLoad.push(function() {
-            window.onpopstate = function(event) {
-                terminal.load(String(location.hash).substr(1));
-            };
-            if (location.hash === '') {
-                location.hash = 'johan.txt';
-            } else {
-                terminal.load(String(location.hash).substr(1));
-            }
-        });
-    </script>
+ 88888  dP"Yb  88  88    db    88b 88
+    88 dP   Yb 88  88   dPYb   88Yb88
+o.  88 Yb   dP 888888  dP__Yb  88 Y88
+"bodP'  YbodP  88  88 dP""""Yb 88  Y8
+
+888888  dP""b8 88b 88 888888 88""Yb 88        db    8888b.
+88__   dP   `" 88Yb88 88__   88__dP 88       dPYb    8I  Yb
+88""   Yb  "88 88 Y88 88""   88""Yb 88  .o  dP__Yb   8I  dY
+888888  YboodP 88  Y8 888888 88oodP 88ood8 dP""""Yb 8888Y"
+
+    </pre>
+
+    <p>If you're interested, this is my <a href="cv.txt">CV</a>.<p>
+    <p>Find all my personal programming projects at <a href="https://github.com/eblade">Github</a>.</p>
+    <p>Find my music <a href="music/index.html">here</a> or at <a href="https://soundcloud.com/eblade">Soundcloud</a>.</p>
+
+    <br />
+    <br />
+
+    <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 </body>
 </html>
