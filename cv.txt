@@ -17,13 +17,30 @@
   Working experiences
   -------------------
 
-    September 2016 - Present
+    January 2022 - Present
+    Product Owner, later also Business Data Architect and Software Developer
+    at Nepa Stockholm
+
+    Continuing my career within Nepa, I took on the role as Product Owner for
+    the internal product I had spent five years building by then. To learn this
+    new roll I read books and enrolled a Product Manager course. I learned how
+    to structure and prioritize the development of a small team. After getting
+    more comfortable is this role I took on other parallel responsibilities,
+    first as a Business Data Architect, a role appointed to me because of my
+    engagement in the future of Nepa's data pipelines and data formats. After a
+    while I felt I needed to program a bit, so I joined a development team. It
+    was important that it was not the team I am the Product Owner in, a
+    combination I have found difficult to handle.
+
+
+    September 2016 - December 2021
     Advanced Analyst/Data Scientist at Nepa London/Stockholm
 
     Working with retailers, media companies and FMCG (fast moving consumer
     goods) to help them better understand the impact of marketing strategies
     as well as logistics through statistical analysis and machine learning.
-    Also including software development for internal tools.
+    This position was mainly about software development for internal tools,
+    both backend and frontend (desktop). I used C# and Python.
 
 
     February 2016 - September 2016
@@ -91,29 +108,29 @@
 
     Used on a weekly basis:
 
-    - R
     - C#
     - Python
-    - JavaScript/HTML/CSS/Angular/jQuery
+    - JavaScript/HTML/CSS
     - SQL
     - Bash
 
-    I am also comfortable with:
+    I have also worked with these languages in the past:
 
     - Perl
     - C
     - C++
+    - R
 
 
   Technologies
   ------------
 
     - Linux (SLES, Redhat, Ubuntu, Fedora, Debian)
-    - Databases (DB2, Oracle, MS SQL Server)
+    - Databases (DB2, Oracle, MS SQL Server, AlloyDB, MongoDB, SQLite3)
     - Message Queues (ActiveMQ)
     - Search Engine (Solr)
     - Source Control (git, bzr, svn)
-    - VIM (not gVIM!)
+    - VIM
     - Windows
 
 
