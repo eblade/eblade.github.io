@@ -23,14 +23,13 @@
 
     Continuing my career within Nepa, I took on the role as Product Owner for
     the internal product I had spent five years building by then. To learn this
-    new roll I read books and enrolled a Product Manager course. I learned how
+    new roll I enrolled a Product Manager course and read books. I learned how
     to structure and prioritize the development of a small team. After getting
     more comfortable is this role I took on other parallel responsibilities,
     first as a Business Data Architect, a role appointed to me because of my
     engagement in the future of Nepa's data pipelines and data formats. After a
-    while I felt I needed to program a bit, so I joined a development team. It
-    was important that it was not the team I am the Product Owner in, a
-    combination I have found difficult to handle.
+    while I felt I needed to program more, so I also joined a development team
+    part time in March 2023.
 
 
     September 2016 - December 2021
