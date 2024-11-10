@@ -1,6 +1,4 @@
 
-  [[back|#johan.txt]]
-
 
                                 .::   .::         .::
                              .::   .:: .::       .::
@@ -11,13 +9,20 @@
                                .::::        .::
 
 
-  [[johan@egneblad.se|mailto:johan@egneblad.se]]
+  johan [at] egneblad [dot] se
 
 
   Working experiences
   -------------------
 
-    January 2022 - Present
+    October 2023 - Present
+    Senior Developer at Metrea Simulations, Stockholm
+
+    Working with libraires, tools and pipelines for terrain generation for a
+    professional flight simulator. Languages include C++, Python and C#.
+
+
+    January 2022 - October 2023
     Product Owner, later also Business Data Architect and Software Developer
     at Nepa Stockholm
 
