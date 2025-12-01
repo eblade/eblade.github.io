@@ -71,6 +71,7 @@ class Track extends HTMLElement {
 		+ filename + '" download>' + extension + '</a>';
 	    container.appendChild(span);
 	};
+	createLink(this.proxy, 'mp3');
 	if (this.flac) {
 	    createLink(this.flac, 'flac');
 	}
